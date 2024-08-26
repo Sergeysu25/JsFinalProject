@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: url(/1644983061_1-fikiwiki-com-p-krasivie-kartinki-na-ves-ekran-1.jpg)
+}
+
+h1 {
+text-align: center;
+margin: 20px 0;
+}
+
+.task-list{
+
+  display: flex;
+  justify-content: space-between;
+  width: 95%;
+  margin: 0 auto;
+  padding: 7px;
+}
+
+
+.container {
+  width: 24%;
+  padding: 5px;
+  border: 2px solid #335cd5;
+  border-radius: 10px;
+  height: fit-content;
+}
+
+.container-list {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  width: 100%;
+  border-radius: 2px;
+  
+}
+
+.container-title {
+  margin-bottom: 4px;
+}
+
+
+.container-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.container-item {
+  border: 1px solid grey;
+  border-radius: 3px;
+  padding: 5px;
+  margin-bottom: 5px;
+}
+
+.container-form button{
+  display: block;
+  margin: 0 auto;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5px;
+}
+
+.button {
+padding: 2px 15px;
+border: 2px solid  #335cd5;
+border-radius: 7px;
+font-weight: bolder;
+cursor: pointer;
+
+}
+
+.button:hover {
+  background-color: white;
+}
+
+.task-plus{
+  display: block;
+  margin: 0 auto;
+  cursor: pointer;
+  width:25px ;
+}
+
+
+.form-hidden {
+  display: none;
+}
+
+
+
+input {
+  width: 100%;
+  padding: 5px;
+  border: 2px solid #335cd5;
+  border-radius: 7px;
+  margin-bottom: 5px;
+
+}
+
+
+.edit-form {
+  margin-top: 0.5rem ;
+}
+
+

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Дипломный проект</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Tasks</h1>
+
+<div class="task-list">
+    <div class="container" id="task">
+     <h2 class="container-title">ToDo</h2>
+     <ul class="container-list"></ul>
+    <img src="/add_task_FILL0_wght400_GRAD0_opsz48.png" width="25px" alt="plus"  class="task-plus">
+    <form class="container-form form-hidden">
+        <input type="text" placeholder="Task:" id="task-title"/> 
+        <button class="button button-add">+Add Task</button>
+    </form>
+    </div>
+
+    <div class="container" id="inProgress">
+     <h2 class="container-title">inProgress</h2>
+     <ul class="container-list"></ul>
+    <img src="/add_task_FILL0_wght400_GRAD0_opsz48.png" width="25px" alt="plus"  class="task-plus">
+    <form class="container-form form-hidden">
+        <input type="text" placeholder="Task:" id="inProgress-title"/> 
+        <button class="button button-add">Add Task</button>
+    </form>
+    </div>
+
+    <div class="container" id="done">
+        <h2 class="container-title">Done</h2>
+        <ul class="container-list"></ul>
+       <img src="/add_task_FILL0_wght400_GRAD0_opsz48.png" width="25px" alt="plus"  class="task-plus">
+       <form class="container-form form-hidden">
+           <input type="text" placeholder="Task:" id="done-title"/> 
+           <button class="button button-add">Add Task</button>
+       </form>
+    </div>
+
+    <div class="container" id="deleted">
+     <h2 class="container-title">Delete</h2>
+     <img src="/delete_FILL0_wght400_GRAD0_opsz48.png" width="25px" alt="plus"  class="task-plus">
+    <ul class="container-list"></ul>
+    </div>
+</div>
+
+<body>
+
+<script src="index.js"></script>
+
+</html>
